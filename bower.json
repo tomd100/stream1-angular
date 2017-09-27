@@ -1,0 +1,17 @@
+{
+  "name": "angular-todo",
+  "homepage": "https://github.com/tomd100/stream1-angular",
+  "authors": [
+    "Tom D <tomd200@mac.com>"
+  ],
+  "description": "To DO List Project",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
