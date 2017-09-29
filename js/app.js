@@ -1,6 +1,6 @@
 // JavaScript File
 
-angular.module('TodoApp', ['ngRoute', 'RouteControllers', 'UserService', 'angular-storage', 'TodoService']); // these are dependencies - adding UserService links the service to the app..?
+angular.module('TodoApp', ['ngRoute', 'RouteControllers', 'UserService', 'angular-storage', 'TodoService', 'TodoDirective']); // these are dependencies - adding UserService links the service to the app..?
 
 angular.module('TodoApp')
 .config(function ($locationProvider, $routeProvider) {
