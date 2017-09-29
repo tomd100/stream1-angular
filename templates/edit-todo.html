@@ -1,4 +1,4 @@
-<div class="modal-dialog">
+<div class="modal-dialog" id="edit-todo-modal">
     <div class="modal-content">
         <div class="modal-body">
             <form name="todoForm" ng-submit="submitForm()" novalidate>
@@ -20,7 +20,7 @@
                             <option value="Done">Done</option>
                         </select>
                 </div>
-                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Save Changes</button>
                 </div>
             </form>
         </div>
